@@ -1,0 +1,13 @@
+calculator.js / MethodColor() doesn't work cuz idk how to do css and by browsing i found this but ye it doesn't work topkek
+
+bigger problem is numbers.js / NumberClick(n) cannot access state of parent object Calculator.js
+well it can edit it but i couldn't make it work yet
+I know i can just put the function in the parent object and import it in the child object but that's like too easy and then i don't learn how to edit state of parent object within child
+i googled this a lot but i don't understand what ppl propose lel
+like it either says "props" or "state" not defined, so it obviously doesn't take parent state and tries to find child state which doesn't exist. i thought "props" is like a keyword for "parent" but seems like nope
+
+also I thought about removing the switch statement from calculator.js / sum() and replace with something like
+this.setState({result: (Number(this.state.input1) (this.state.method) Number(this.state.input2))});
+but ye idk how to use the method. with input1 and input2 it's number() but method like +-*/ isn't a number
+
+also numbers.js / repeat (n) function i don't get what v and i are for and what it does exactly
